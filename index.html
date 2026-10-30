@@ -26,14 +26,19 @@
     <div class="pill"><img src="icon.png" alt="">Coming soon to the App Store</div>
   </section>
 
-  <div class="wrap"><div class="strip" aria-label="App screenshots">
-    <img src="img/01-hero.jpg" alt="Invoice list showing outstanding, overdue and paid totals">
-    <img src="img/02-describe.jpg" alt="Describe the job: plain words become priced lines">
-    <img src="img/03-no-fees.jpg" alt="$0 in payment fees: record payments, Handbill never takes a cut">
-    <img src="img/04-convert.jpg" alt="An estimate turned into an invoice in one tap">
-    <img src="img/05-late.jpg" alt="Overdue reminder and a polite follow-up message">
-    <img src="img/06-pdf.jpg" alt="A clean, professional invoice PDF marked paid">
-    <img src="img/07-private.jpg" alt="No account and no signal needed: data stays on your phone">
+  <div class="wrap"><div class="gallery" id="gallery">
+    <button class="arrow prev" type="button" aria-label="Previous screenshots" hidden>&#8249;</button>
+    <div class="strip" aria-label="App screenshots" tabindex="0">
+      <img src="img/01-hero.jpg" alt="Invoice list showing outstanding, overdue and paid totals">
+      <img src="img/02-describe.jpg" alt="Describe the job: plain words become priced lines">
+      <img src="img/03-no-fees.jpg" alt="$0 in payment fees: record payments, Handbill never takes a cut">
+      <img src="img/04-convert.jpg" alt="An estimate turned into an invoice in one tap">
+      <img src="img/05-late.jpg" alt="Overdue reminder and a polite follow-up message">
+      <img src="img/06-pdf.jpg" alt="A clean, professional invoice PDF marked paid">
+      <img src="img/07-private.jpg" alt="No account and no signal needed: data stays on your phone">
+    </div>
+    <button class="arrow next" type="button" aria-label="More screenshots">&#8250;</button>
+    <div class="dots" aria-hidden="true"></div>
   </div></div>
 
   <div class="wrap"><div class="tear" aria-hidden="true"></div></div>
@@ -54,5 +59,31 @@
 </main>
 
 <footer><div class="wrap">© 2026 BoomBoom LLC · <a href="privacy/">Privacy</a> · <a href="support/">Support</a></div></footer>
+<script>
+(() => {
+  const g = document.getElementById('gallery'), strip = g.querySelector('.strip');
+  const imgs = [...strip.querySelectorAll('img')], dots = g.querySelector('.dots');
+  const prev = g.querySelector('.prev'), next = g.querySelector('.next');
+  imgs.forEach((img, i) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.addEventListener('click', () => strip.scrollTo({ left: img.offsetLeft - 22, behavior: 'smooth' }));
+    dots.appendChild(b);
+  });
+  const step = () => imgs[0].getBoundingClientRect().width + 18;
+  prev.addEventListener('click', () => strip.scrollBy({ left: -step() * 2, behavior: 'smooth' }));
+  next.addEventListener('click', () => strip.scrollBy({ left: step() * 2, behavior: 'smooth' }));
+  const update = () => {
+    const max = strip.scrollWidth - strip.clientWidth, x = strip.scrollLeft;
+    const start = x < 4, end = x > max - 4 || max <= 0;
+    g.classList.toggle('scrolled', !start); g.classList.toggle('at-end', end);
+    prev.hidden = start; next.hidden = end;
+    const i = Math.min(imgs.length - 1, Math.round(x / step()));
+    [...dots.children].forEach((d, j) => d.setAttribute('aria-current', j === (end ? imgs.length - 1 : i)));
+  };
+  strip.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>
 </body>
 </html>
