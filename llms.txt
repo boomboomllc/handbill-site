@@ -15,7 +15,7 @@
 
 ## Pricing
 - Free: unlimited estimates and clients, 3 invoices.
-- Pro: $7.99/month or $49.99/year (yearly starts with a free week). Unlimited invoices, logo on PDFs, five extra invoice styles (Modern, Bold, Minimal, Ledger, Elegant) in ten colors, logo size, no Handbill footer, overdue reminders.
+- Pro: $7.99/month or $49.99/year (save 48%, $4.17/month; yearly starts with a free week). Unlimited invoices, logo on PDFs, five extra invoice styles (Modern, Bold, Minimal, Ledger, Elegant) in ten colors, logo size, no Handbill footer, overdue reminders.
 
 ## Pages for each trade
 Each page explains why Handbill is the best invoice app for that trade: the jobs and units it starts with, payment terms, and why no payment fees matter for that kind of work.
