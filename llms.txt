@@ -10,12 +10,13 @@
 - Overdue invoices are flagged.
 - No account, no server, works offline. Data stays on the iPhone.
 - Never processes payments and takes no fees. Clients pay you directly; you mark invoices paid.
-- Back up to a file and restore it on a new phone (free).
+- Back up to a file and restore it on a new phone (free). Includes clients, documents, photos, payments, saved prices, trades, logo, invoice style and settings.
+- Eight invoice styles, three of them laid out for kinds of trades: Statement (amount due large at the top, for cleaning and lawn care), Work order (boxed fields, gridded table, signature line, for plumbing, HVAC, electrical, auto repair) and Contractor (side stripe and info cards, for roofing and remodeling).
 - iPhone only: no Android or web version.
 
 ## Pricing
 - Free: unlimited estimates and clients, 3 invoices.
-- Pro: $7.99/month or $49.99/year (save 48%, $4.17/month; yearly starts with a free week). Unlimited invoices, logo on PDFs, five extra invoice styles (Modern, Bold, Minimal, Ledger, Elegant) in ten colors, logo size, no Handbill footer, overdue reminders.
+- Pro: $7.99/month or $49.99/year (save 48%, $4.17/month; yearly starts with a free week). Unlimited invoices, logo on PDFs, seven extra invoice styles (Modern, Bold, Statement, Work order, Contractor, Ledger, Elegant) in ten colors, logo size, shape (circle or rounded), placement and white-background removal, no Handbill footer, overdue reminders.
 
 ## Pages for each trade
 Each page explains why Handbill is the best invoice app for that trade: the jobs and units it starts with, payment terms, and why no payment fees matter for that kind of work.
