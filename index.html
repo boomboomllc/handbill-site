@@ -8,6 +8,122 @@
 <meta name="description" content="The invoice and estimate app for the trades. Quote on site, invoice in one tap, and see who has paid. No account, no payment fees.">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="stylesheet" href="style.css">
+<link rel="canonical" href="https://boomboomllc.github.io/handbill-site/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Handbill: Invoices &amp; Estimates for the trades">
+<meta property="og:description" content="Quote on site, invoice in one tap, and see who has paid. iPhone app for electricians, plumbers, HVAC, cleaners, landscapers and more. No account, no payment fees.">
+<meta property="og:url" content="https://boomboomllc.github.io/handbill-site/">
+<meta property="og:image" content="https://boomboomllc.github.io/handbill-site/img/01-hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "name": "Handbill: Invoices & Estimates",
+   "alternateName": "Handbill",
+   "url": "https://boomboomllc.github.io/handbill-site/",
+   "operatingSystem": "iOS 17 or later",
+   "applicationCategory": "BusinessApplication",
+   "image": "https://boomboomllc.github.io/handbill-site/icon.png",
+   "description": "An iPhone app for solo tradespeople and small service businesses to write estimates, turn them into invoices, send PDFs by email or message, and track who has paid. No account, no server, works offline, and it never processes payments or takes a fee.",
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Free",
+     "price": "0",
+     "priceCurrency": "USD"
+    },
+    {
+     "@type": "Offer",
+     "name": "Pro monthly",
+     "price": "7.99",
+     "priceCurrency": "USD"
+    },
+    {
+     "@type": "Offer",
+     "name": "Pro yearly",
+     "price": "49.99",
+     "priceCurrency": "USD",
+     "description": "Starts with a free week for new subscribers"
+    }
+   ],
+   "publisher": {
+    "@id": "https://boomboomllc.github.io/handbill-site/#org"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://boomboomllc.github.io/handbill-site/#org",
+   "name": "BoomBoom LLC",
+   "url": "https://boomboomllc.github.io/handbill-site/",
+   "email": "support@boomboomhq.com"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Is Handbill free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. The free plan has unlimited estimates and clients and 3 invoices. Handbill Pro is $7.99 a month or $49.99 a year (the yearly plan starts with a free week) and unlocks unlimited invoices, your logo on the PDF, no Handbill footer, and overdue reminders."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does Handbill take a cut of my payments?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Handbill never processes payments. Clients pay you directly by cash, check, bank transfer, Zelle, Venmo or card through your own reader, and you mark the invoice paid. There are no payment fees."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need an account or internet?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No account and no sign-up. Handbill works offline, so you can write an estimate in a basement or on a roof. Your data stays on your iPhone and is included in your normal iPhone backup."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which trades is Handbill for?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Any solo trade or small service business. On first launch you pick your trade, such as electrician, plumber, HVAC, handyman, house cleaning, lawn care, landscaping, painting, pressure washing, roofing, carpentry, flooring, pool service, appliance repair, pest control, window cleaning, junk removal or mobile mechanic, and Handbill fills in the common jobs, units and wording."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I turn an estimate into an invoice?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. When the client says yes, one tap turns the estimate into an invoice with every line, tax and discount copied over."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I send an invoice?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Handbill makes a clean PDF with your business details. Send it by email, text message or any app from the share sheet. Paid invoices work as a receipt."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does it work on Android or the web?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Handbill is an iPhone app for iOS 17 and later. There is no Android or web version."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
 </head>
 <body>
 <div class="ticket" style="width: 980px; height: 1100px; top: 260px; left: -380px; transform: rotate(-8deg)"></div>
@@ -16,7 +132,7 @@
 
 <header><div class="wrap">
   <a class="brand" href="./"><img src="icon.png" alt="">Handbill</a>
-  <nav><a href="privacy/">Privacy</a><a href="support/">Support</a></nav>
+  <nav><a href="trades/">Trades</a><a href="compare/">Compare</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="privacy/">Privacy</a><a href="support/">Support</a></nav>
 </div></header>
 
 <main>
@@ -56,6 +172,49 @@
   </section>
 
   <div class="wrap"><div class="tear" aria-hidden="true"></div></div>
+
+  <section class="wrap">
+    <h2>Made for your trade,<span>from the first tap.</span></h2>
+    <p class="lead" style="margin-bottom:24px">Pick your trade on first launch. Handbill fills in the jobs, units and wording you already use, then you set your own prices.</p>
+    <p><a href="trades/">See what Handbill sets up for each trade</a></p>
+    <ul class="tags"><li>Electricians</li><li>Plumbers</li><li>HVAC</li><li>Handymen</li><li>House cleaners</li><li>Lawn care</li><li>Landscapers</li><li>Painters</li><li>Pressure washing</li><li>Roofers</li><li>Carpenters</li><li>Flooring</li><li>Pool service</li><li>Appliance repair</li><li>Pest control</li><li>Window cleaning</li><li>Junk removal</li><li>Mobile mechanics</li><li>General contractors</li></ul>
+  </section>
+
+  <div class="wrap"><div class="tear" aria-hidden="true"></div></div>
+
+  <section class="wrap" id="pricing">
+    <h2>Start free.<span>Upgrade when it pays.</span></h2>
+    <div class="grid">
+      <div class="card"><h3>Free</h3><p class="price">$0</p><ul>
+        <li>Unlimited estimates and clients</li><li>3 invoices</li><li>PDFs by email or message</li>
+        <li>Trade setup and Describe the job</li><li>Paid, sent and overdue tracking</li></ul></div>
+      <div class="card"><h3>Pro</h3><p class="price">$7.99<small> / month</small></p>
+        <p class="muted">or $49.99 a year, with a free first week</p><ul>
+        <li>Unlimited invoices</li><li>Your logo on every PDF</li><li>No Handbill footer</li>
+        <li>Overdue reminders</li></ul></div>
+    </div>
+    <p class="muted" style="margin-top:16px">No payment processing, so no fees on what your clients pay you. Cancel any time in your Apple ID settings. <a href="compare/">How Handbill compares</a>.</p>
+  </section>
+
+  <div class="wrap"><div class="tear" aria-hidden="true"></div></div>
+
+  <section class="wrap narrow" id="faq">
+    <h2>Questions,<span>answered.</span></h2>
+    <h3>Is Handbill free?</h3>
+    <p class="muted">Yes. The free plan has unlimited estimates and clients and 3 invoices. Handbill Pro is $7.99 a month or $49.99 a year (the yearly plan starts with a free week) and unlocks unlimited invoices, your logo on the PDF, no Handbill footer, and overdue reminders.</p>
+    <h3>Does Handbill take a cut of my payments?</h3>
+    <p class="muted">No. Handbill never processes payments. Clients pay you directly by cash, check, bank transfer, Zelle, Venmo or card through your own reader, and you mark the invoice paid. There are no payment fees.</p>
+    <h3>Do I need an account or internet?</h3>
+    <p class="muted">No account and no sign-up. Handbill works offline, so you can write an estimate in a basement or on a roof. Your data stays on your iPhone and is included in your normal iPhone backup.</p>
+    <h3>Which trades is Handbill for?</h3>
+    <p class="muted">Any solo trade or small service business. On first launch you pick your trade, such as electrician, plumber, HVAC, handyman, house cleaning, lawn care, landscaping, painting, pressure washing, roofing, carpentry, flooring, pool service, appliance repair, pest control, window cleaning, junk removal or mobile mechanic, and Handbill fills in the common jobs, units and wording.</p>
+    <h3>Can I turn an estimate into an invoice?</h3>
+    <p class="muted">Yes. When the client says yes, one tap turns the estimate into an invoice with every line, tax and discount copied over.</p>
+    <h3>How do I send an invoice?</h3>
+    <p class="muted">Handbill makes a clean PDF with your business details. Send it by email, text message or any app from the share sheet. Paid invoices work as a receipt.</p>
+    <h3>Does it work on Android or the web?</h3>
+    <p class="muted">Handbill is an iPhone app for iOS 17 and later. There is no Android or web version.</p>
+  </section>
 </main>
 
 <footer><div class="wrap">© 2026 BoomBoom LLC · <a href="privacy/">Privacy</a> · <a href="support/">Support</a></div></footer>

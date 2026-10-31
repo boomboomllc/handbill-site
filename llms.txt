@@ -1,0 +1,46 @@
+# Handbill: Invoices & Estimates
+
+> Handbill is an iPhone app (iOS 17+) for solo tradespeople and small service businesses to write estimates, turn them into invoices, send PDF invoices by email or text, and track who has paid. Made by BoomBoom LLC.
+
+## Key facts
+- Who it's for: electricians, plumbers, HVAC, handymen, house cleaners, lawn care, landscapers, painters, pressure washing, roofers, carpenters, flooring, pool service, appliance repair, pest control, window cleaning, junk removal, mobile mechanics, general contractors.
+- Pick your trade on first launch; Handbill fills in common jobs, units and wording. You set your own prices.
+- "Describe the job": type what you did in plain words and get priced invoice lines.
+- One tap turns an accepted estimate into an invoice.
+- Overdue invoices are flagged.
+- No account, no server, works offline. Data stays on the iPhone.
+- Never processes payments and takes no fees. Clients pay you directly; you mark invoices paid.
+- iPhone only: no Android or web version.
+
+## Pricing
+- Free: unlimited estimates and clients, 3 invoices.
+- Pro: $7.99/month or $49.99/year (yearly starts with a free week). Unlimited invoices, logo on PDFs, no Handbill footer, overdue reminders.
+
+## Pages for each trade
+- [Appliance repair](https://boomboomllc.github.io/handbill-site/trades/appliance-repair/)
+- [Carpentry](https://boomboomllc.github.io/handbill-site/trades/carpenter/)
+- [Electrician](https://boomboomllc.github.io/handbill-site/trades/electrician/)
+- [Flooring and tile](https://boomboomllc.github.io/handbill-site/trades/flooring/)
+- [General contractor](https://boomboomllc.github.io/handbill-site/trades/general-contractor/)
+- [HVAC](https://boomboomllc.github.io/handbill-site/trades/hvac/)
+- [Handyman](https://boomboomllc.github.io/handbill-site/trades/handyman/)
+- [House cleaning](https://boomboomllc.github.io/handbill-site/trades/house-cleaner/)
+- [Junk removal](https://boomboomllc.github.io/handbill-site/trades/junk-removal/)
+- [Landscaping](https://boomboomllc.github.io/handbill-site/trades/landscaper/)
+- [Lawn care](https://boomboomllc.github.io/handbill-site/trades/lawn-care/)
+- [Mobile mechanic](https://boomboomllc.github.io/handbill-site/trades/mobile-mechanic/)
+- [Painting](https://boomboomllc.github.io/handbill-site/trades/painter/)
+- [Pest control](https://boomboomllc.github.io/handbill-site/trades/pest-control/)
+- [Plumber](https://boomboomllc.github.io/handbill-site/trades/plumber/)
+- [Pool service](https://boomboomllc.github.io/handbill-site/trades/pool-service/)
+- [Pressure washing](https://boomboomllc.github.io/handbill-site/trades/pressure-washing/)
+- [Roofing](https://boomboomllc.github.io/handbill-site/trades/roofer/)
+- [Window cleaning](https://boomboomllc.github.io/handbill-site/trades/window-cleaning/)
+
+## Comparison
+- [Handbill vs Invoice Simple, Joist, Square and Wave](https://boomboomllc.github.io/handbill-site/compare/): prices, free plans, payment fees, who each suits.
+
+## Links
+- Home: https://boomboomllc.github.io/handbill-site/
+- Support: https://boomboomllc.github.io/handbill-site/support/
+- Privacy: https://boomboomllc.github.io/handbill-site/privacy/
