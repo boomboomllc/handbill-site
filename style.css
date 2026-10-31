@@ -113,3 +113,6 @@ a.card:hover { border-color: var(--accent); }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
 .arrow[hidden] { visibility: hidden; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+nav { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+nav a { margin-left: 0; }
+nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; }

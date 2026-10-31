@@ -14,7 +14,7 @@
 
 ## Pricing
 - Free: unlimited estimates and clients, 3 invoices.
-- Pro: $7.99/month or $49.99/year (yearly starts with a free week). Unlimited invoices, logo on PDFs, no Handbill footer, overdue reminders.
+- Pro: $7.99/month or $49.99/year (yearly starts with a free week). Unlimited invoices, logo on PDFs, Modern and Bold invoice styles with a custom color, no Handbill footer, overdue reminders.
 
 ## Pages for each trade
 - [Appliance repair](https://boomboomllc.github.io/handbill-site/trades/appliance-repair/)
