@@ -38,7 +38,7 @@
 - [Window cleaning](https://boomboomllc.github.io/handbill-site/trades/window-cleaning/)
 
 ## Comparison
-- [Handbill vs Invoice Simple, Joist, Square and Wave](https://boomboomllc.github.io/handbill-site/compare/): prices, free plans, payment fees, who each suits.
+- [Handbill vs Invoice Simple, Joist, Square and Wave](https://boomboomllc.github.io/handbill-site/compare/): why Handbill costs less, with no fees on payments.
 
 ## Links
 - Home: https://boomboomllc.github.io/handbill-site/
