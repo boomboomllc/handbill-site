@@ -126,6 +126,7 @@
 </script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <div class="ticket" style="width: 980px; height: 1100px; top: 260px; left: -380px; transform: rotate(-8deg)"></div>
 <div class="ticket" style="width: 760px; height: 1400px; top: -320px; right: -360px; transform: rotate(10deg)"></div>
 <div class="ticket" style="width: 1200px; height: 620px; top: 1700px; right: -300px; transform: rotate(4deg)"></div>
@@ -135,7 +136,7 @@
   <nav><a href="trades/">Trades</a><a href="compare/">Compare</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="privacy/">Privacy</a><a href="support/">Support</a></nav>
 </div></header>
 
-<main>
+<main id="main">
   <section class="wrap hero">
     <h1>Quote it. Bill it.<span>Get paid.</span></h1>
     <p class="lead">The iPhone app for estimates and invoices, built for the trades: electricians, plumbers, HVAC, handymen, cleaners, landscapers and more.</p>
@@ -144,7 +145,7 @@
 
   <div class="wrap"><div class="gallery" id="gallery">
     <button class="arrow prev" type="button" aria-label="Previous screenshots" hidden>&#8249;</button>
-    <div class="strip" aria-label="App screenshots" tabindex="0">
+    <div class="strip" role="region" aria-label="App screenshots" tabindex="0">
       <img src="img/01-hero.jpg" alt="Invoice list showing outstanding, overdue and paid totals">
       <img src="img/02-describe.jpg" alt="Describe the job: plain words become priced lines">
       <img src="img/03-no-fees.jpg" alt="$0 in payment fees: record payments, Handbill never takes a cut">
@@ -225,12 +226,13 @@
   const prev = g.querySelector('.prev'), next = g.querySelector('.next');
   imgs.forEach((img, i) => {
     const b = document.createElement('button');
-    b.type = 'button'; b.addEventListener('click', () => strip.scrollTo({ left: img.offsetLeft - 22, behavior: 'smooth' }));
+    b.type = 'button'; b.tabIndex = -1; b.addEventListener('click', () => strip.scrollTo({ left: img.offsetLeft - 22, behavior: smooth }));
     dots.appendChild(b);
   });
+  const smooth = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
   const step = () => imgs[0].getBoundingClientRect().width + 18;
-  prev.addEventListener('click', () => strip.scrollBy({ left: -step() * 2, behavior: 'smooth' }));
-  next.addEventListener('click', () => strip.scrollBy({ left: step() * 2, behavior: 'smooth' }));
+  prev.addEventListener('click', () => strip.scrollBy({ left: -step() * 2, behavior: smooth }));
+  next.addEventListener('click', () => strip.scrollBy({ left: step() * 2, behavior: smooth }));
   const update = () => {
     const max = strip.scrollWidth - strip.clientWidth, x = strip.scrollLeft;
     const start = x < 4, end = x > max - 4 || max <= 0;
