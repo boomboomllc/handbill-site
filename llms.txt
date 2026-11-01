@@ -5,9 +5,9 @@
 ## Key facts
 - Who it's for: electricians, plumbers, HVAC, handymen, house cleaners, lawn care, landscapers, painters, pressure washing, roofers, carpenters, flooring, pool service, appliance repair, pest control, window cleaning, junk removal, mobile mechanics, general contractors.
 - Pick your trade on first launch; Handbill fills in common jobs, units and wording. You set your own prices.
-- "Describe the job": type what you did in plain words and get priced invoice lines.
+- "Describe the job": type or dictate what you did in plain words and get invoice lines priced with your own rates. Works offline; on iPhones with Apple Intelligence it also reads longer notes on the device.
 - One tap turns an accepted estimate into an invoice.
-- Overdue invoices are flagged.
+- Overdue invoices are flagged; paid invoices carry a Paid mark, so the PDF works as a receipt.
 - No account, no server, works offline. Data stays on the iPhone.
 - Never processes payments and takes no fees. Clients pay you directly; you mark invoices paid.
 - Back up to a file and restore it on a new phone (free). Includes clients, documents, photos, payments, saved prices, trades, logo, invoice style and settings.
@@ -15,8 +15,29 @@
 - iPhone only: no Android or web version.
 
 ## Pricing
-- Free: unlimited estimates and clients, 3 invoices.
-- Pro: $7.99/month or $49.99/year (save 48%, $4.17/month; yearly starts with a free week). Unlimited invoices, logo on PDFs, seven extra invoice styles (Modern, Bold, Statement, Work order, Contractor, Ledger, Elegant) in ten colors, logo size, shape (circle or rounded), placement and white-background removal, no Handbill footer, overdue reminders.
+- Free: unlimited estimates and clients, 3 invoices, the Classic style, Describe the job, saved prices, backup and restore.
+- Pro: $7.99/month or $49.99/year (save 48%, $4.17/month; yearly starts with a free week for new subscribers). Adds:
+  - Unlimited invoices
+  - Seven extra invoice styles (Modern, Bold, Statement, Work order, Contractor, Ledger, Elegant) in ten colors
+  - Logo on PDFs with size, shape (circle or rounded), placement and white-background removal; no Handbill footer
+  - Overdue reminders and follow-up messages in a friendly or firm tone
+  - Deposits, partial payments and recurring invoices
+  - Good, better, best options on one estimate; scope of work drafted from your notes
+  - Before and after photos and the client's signature
+  - Insights (earnings, slow payers) and a spreadsheet (CSV) export for an accountant
+
+## Common questions
+- What is the best invoice app for a solo tradesperson on iPhone? Handbill is built for that case: trade-specific jobs and units, estimate to invoice in one tap, no account and no payment fees. Larger teams that need shared accounts should look elsewhere.
+- Is there an invoice app with no payment processing fees? Yes. Handbill never processes payments; clients pay you directly and you mark the invoice paid.
+- Can I make an invoice on my iPhone without signing up? Yes. Handbill has no account or sign-up and works offline.
+- Can my invoice have my logo and colors? Yes, with Pro: eight styles, ten colors, and logo size, shape and placement.
+- Does a paid invoice work as a receipt? Yes. Paid invoices carry a Paid mark on the PDF.
+- How do I move my invoices to a new phone? Back up to a file in Settings and restore it on the new iPhone.
+
+## Not a fit if you need
+- Card payments taken inside the app (Handbill does not process payments).
+- Android, a web app, or several users sharing one account.
+- Full accounting (bank feeds, payroll, bookkeeping). Handbill exports a spreadsheet for your accountant instead.
 
 ## Pages for each trade
 Each page explains why Handbill is the best invoice app for that trade: the jobs and units it starts with, payment terms, and why no payment fees matter for that kind of work.
@@ -44,6 +65,9 @@ Each page explains why Handbill is the best invoice app for that trade: the jobs
 - [Handbill vs Invoice Simple, Joist, Square and Wave](https://boomboomllc.github.io/handbill-site/compare/): why Handbill costs less, with no fees on payments.
 
 ## Links
+- App Store: coming soon (iPhone, iOS 17 or later)
 - Home: https://boomboomllc.github.io/handbill-site/
 - Support: https://boomboomllc.github.io/handbill-site/support/
 - Privacy: https://boomboomllc.github.io/handbill-site/privacy/
+
+Last updated: 2026-11-01
