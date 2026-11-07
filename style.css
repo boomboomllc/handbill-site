@@ -36,6 +36,8 @@ a { color: var(--accent); }
 .hero { padding-top: 48px; padding-bottom: 32px; }
 .pill { display: inline-flex; align-items: center; gap: 8px; margin-top: 28px; background: var(--ink); color: #fff;
   font-weight: 700; font-size: 16px; padding: 12px 20px; border-radius: 999px; }
+a.pill { text-decoration: none; }
+a.pill:hover { background: var(--accent); }
 .pill img { width: 22px; height: 22px; border-radius: 5px; }
 
 /* The tear line with a notch at each edge: the brand divider */

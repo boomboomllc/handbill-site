@@ -65,7 +65,7 @@ Each page explains why Handbill is the best invoice app for that trade: the jobs
 - [Handbill vs Invoice Simple, Joist, Square and Wave](https://boomboomllc.github.io/handbill-site/compare/): why Handbill costs less, with no fees on payments.
 
 ## Links
-- App Store: coming soon (iPhone, iOS 17 or later)
+- App Store: https://apps.apple.com/us/app/handbill-invoices-estimates/id6829022047 (iPhone, iOS 17 or later)
 - Home: https://boomboomllc.github.io/handbill-site/
 - Support: https://boomboomllc.github.io/handbill-site/support/
 - Privacy: https://boomboomllc.github.io/handbill-site/privacy/
