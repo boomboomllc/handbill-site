@@ -41,33 +41,33 @@
 
 ## Pages for each trade
 Each page explains why Handbill is the best invoice app for that trade: the jobs and units it starts with, payment terms, and why no payment fees matter for that kind of work.
-- [Appliance repair](https://boomboomllc.github.io/handbill-site/trades/appliance-repair/)
-- [Carpentry](https://boomboomllc.github.io/handbill-site/trades/carpenter/)
-- [Electrician](https://boomboomllc.github.io/handbill-site/trades/electrician/)
-- [Flooring and tile](https://boomboomllc.github.io/handbill-site/trades/flooring/)
-- [General contractor](https://boomboomllc.github.io/handbill-site/trades/general-contractor/)
-- [HVAC](https://boomboomllc.github.io/handbill-site/trades/hvac/)
-- [Handyman](https://boomboomllc.github.io/handbill-site/trades/handyman/)
-- [House cleaning](https://boomboomllc.github.io/handbill-site/trades/house-cleaner/)
-- [Junk removal](https://boomboomllc.github.io/handbill-site/trades/junk-removal/)
-- [Landscaping](https://boomboomllc.github.io/handbill-site/trades/landscaper/)
-- [Lawn care](https://boomboomllc.github.io/handbill-site/trades/lawn-care/)
-- [Mobile mechanic](https://boomboomllc.github.io/handbill-site/trades/mobile-mechanic/)
-- [Painting](https://boomboomllc.github.io/handbill-site/trades/painter/)
-- [Pest control](https://boomboomllc.github.io/handbill-site/trades/pest-control/)
-- [Plumber](https://boomboomllc.github.io/handbill-site/trades/plumber/)
-- [Pool service](https://boomboomllc.github.io/handbill-site/trades/pool-service/)
-- [Pressure washing](https://boomboomllc.github.io/handbill-site/trades/pressure-washing/)
-- [Roofing](https://boomboomllc.github.io/handbill-site/trades/roofer/)
-- [Window cleaning](https://boomboomllc.github.io/handbill-site/trades/window-cleaning/)
+- [Appliance repair](https://handbillinvoice.com/trades/appliance-repair/)
+- [Carpentry](https://handbillinvoice.com/trades/carpenter/)
+- [Electrician](https://handbillinvoice.com/trades/electrician/)
+- [Flooring and tile](https://handbillinvoice.com/trades/flooring/)
+- [General contractor](https://handbillinvoice.com/trades/general-contractor/)
+- [HVAC](https://handbillinvoice.com/trades/hvac/)
+- [Handyman](https://handbillinvoice.com/trades/handyman/)
+- [House cleaning](https://handbillinvoice.com/trades/house-cleaner/)
+- [Junk removal](https://handbillinvoice.com/trades/junk-removal/)
+- [Landscaping](https://handbillinvoice.com/trades/landscaper/)
+- [Lawn care](https://handbillinvoice.com/trades/lawn-care/)
+- [Mobile mechanic](https://handbillinvoice.com/trades/mobile-mechanic/)
+- [Painting](https://handbillinvoice.com/trades/painter/)
+- [Pest control](https://handbillinvoice.com/trades/pest-control/)
+- [Plumber](https://handbillinvoice.com/trades/plumber/)
+- [Pool service](https://handbillinvoice.com/trades/pool-service/)
+- [Pressure washing](https://handbillinvoice.com/trades/pressure-washing/)
+- [Roofing](https://handbillinvoice.com/trades/roofer/)
+- [Window cleaning](https://handbillinvoice.com/trades/window-cleaning/)
 
 ## Comparison
-- [Handbill vs Invoice Simple, Joist, Square and Wave](https://boomboomllc.github.io/handbill-site/compare/): why Handbill costs less, with no fees on payments.
+- [Handbill vs Invoice Simple, Joist, Square and Wave](https://handbillinvoice.com/compare/): why Handbill costs less, with no fees on payments.
 
 ## Links
 - App Store: https://apps.apple.com/us/app/handbill-invoices-estimates/id6829022047 (iPhone, iOS 17 or later)
-- Home: https://boomboomllc.github.io/handbill-site/
-- Support: https://boomboomllc.github.io/handbill-site/support/
-- Privacy: https://boomboomllc.github.io/handbill-site/privacy/
+- Home: https://handbillinvoice.com/
+- Support: https://handbillinvoice.com/support/
+- Privacy: https://handbillinvoice.com/privacy/
 
 Last updated: 2026-11-01
